@@ -2,7 +2,7 @@ FROM java:8-jre-alpine
 
 RUN apk update && apk add --no-cache curl git python3
 RUN pip3 install --upgrade pip
-RUN pip3 install --upgrade pylint setuptools
+# RUN pip3 install --upgrade pylint setuptools
 
 WORKDIR /root
 
